@@ -146,6 +146,7 @@ show_group_thumb(%2);
 </layer>
 
 <layer name="restoran_romantik_group_thumb_title" 			parent="restoran_romantik_group_thumb" 			text="Ресторан «Хорошие Люди Романтик»"	style="group_thumb_title" />
+<layer name="restoran_romantik_group_thumb_title"       parent="restoran_romantik_group_thumb"      text="Ресторан «Хорошие Люди Романтик»" style="group_thumb_title" />
 <layer name="restoran_vnutri_group_thumb_title" 			parent="restoran_vnutri_group_thumb" 			text="Ресторан «Хорошие Люди Внутри»" 	style="group_thumb_title" />
 <layer name="kafe_group_thumb_title" 						parent="kafe_group_thumb" 						text="Кафе «Светлое кафе»" 				style="group_thumb_title" />
 <layer name="magazin_group_thumb_title" 					parent="magazin_group_thumb" 					text="Магазин «Ничего лишнего»" 		style="group_thumb_title" />
