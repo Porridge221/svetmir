@@ -1,0 +1,265 @@
+<krpano version="1.21" onstart="set(layer[title].css, 'text-align:left; color:#ffffff; font-family:Gillroy Bold; font-size:2.5vh;');" >
+
+<contextmenu versioninfo="false" />
+
+<events onnewscene="on_new_pano();" />
+<events onenterfullscreen="set(layer[controller_fullscreen_on].visible, false); set(layer[controller_fullscreen_off].visible, true); " />
+<events onexitfullscreen="set(layer[controller_fullscreen_off].visible, false); set(layer[controller_fullscreen_on].visible, true); " />
+
+<action name="one_pano_in_group" >
+set(layer[controller_thumbs_on].visible, false);
+set(layer[controller_thumbs_off].visible, false);
+set(layer[group_scrollarea_container].visible, false);
+set(layer[controller_previous_scene].visible, false);
+set(layer[controller_next_scene].visible, false);
+</action>
+
+<action name="many_pano_in_group" >
+set(layer[group_scrollarea_container].visible, true);
+set(layer[controller_previous_scene].visible, true);
+set(layer[controller_next_scene].visible, true);
+</action>
+
+<action name="clear_thumb_borders" >
+set(layer[pano348_pano_thumb].bgborder, '0');
+set(layer[pano342_pano_thumb].bgborder, '0');
+set(layer[pano343_pano_thumb].bgborder, '0');
+set(layer[pano344_pano_thumb].bgborder, '0');
+set(layer[pano345_pano_thumb].bgborder, '0');
+set(layer[pano346_pano_thumb].bgborder, '0');
+set(layer[pano347_pano_thumb].bgborder, '0');
+set(layer[pano331_pano_thumb].bgborder, '0');
+set(layer[pano328_pano_thumb].bgborder, '0');
+set(layer[pano329_pano_thumb].bgborder, '0');
+set(layer[pano330_pano_thumb].bgborder, '0');
+set(layer[pano332_pano_thumb].bgborder, '0');
+set(layer[pano333_pano_thumb].bgborder, '0');
+set(layer[pano339_pano_thumb].bgborder, '0');
+set(layer[pano340_pano_thumb].bgborder, '0');
+set(layer[pano341_pano_thumb].bgborder, '0');
+set(layer[pano349_pano_thumb].bgborder, '0');
+set(layer[pano334_pano_thumb].bgborder, '0');
+set(layer[pano335_pano_thumb].bgborder, '0');
+set(layer[pano336_pano_thumb].bgborder, '0');
+set(layer[pano338_pano_thumb].bgborder, '0');
+</action>
+
+<action name="on_new_pano" >
+if(group_scrollarea_container_visibility == 'true', set(layer[controller_thumbs_on].visible, false); set(layer[controller_thumbs_off].visible, true););
+if(group_scrollarea_container_visibility == 'false', set(layer[controller_thumbs_on].visible, true); set(layer[controller_thumbs_off].visible, false););
+
+if(xml.scene == pano416, one_pano_in_group(););
+
+clear_thumb_borders();
+
+if(xml.scene == pano348, set(nextscene, pano342); set(previousscene, pano347); set(layer[pano348_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano348_pano_thumb].x) + calc(get(layer[pano348_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano342, set(nextscene, pano343); set(previousscene, pano348); set(layer[pano342_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano342_pano_thumb].x) + calc(get(layer[pano342_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano343, set(nextscene, pano344); set(previousscene, pano342); set(layer[pano343_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano343_pano_thumb].x) + calc(get(layer[pano343_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano344, set(nextscene, pano345); set(previousscene, pano343); set(layer[pano344_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano344_pano_thumb].x) + calc(get(layer[pano344_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano345, set(nextscene, pano346); set(previousscene, pano344); set(layer[pano345_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano345_pano_thumb].x) + calc(get(layer[pano345_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano346, set(nextscene, pano347); set(previousscene, pano345); set(layer[pano346_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano346_pano_thumb].x) + calc(get(layer[pano346_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano347, set(nextscene, pano348); set(previousscene, pano346); set(layer[pano347_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano347_pano_thumb].x) + calc(get(layer[pano347_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano331, set(nextscene, pano328); set(previousscene, pano330); set(layer[pano331_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano331_pano_thumb].x) + calc(get(layer[pano331_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano328, set(nextscene, pano329); set(previousscene, pano331); set(layer[pano328_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano328_pano_thumb].x) + calc(get(layer[pano328_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano329, set(nextscene, pano330); set(previousscene, pano328); set(layer[pano329_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano329_pano_thumb].x) + calc(get(layer[pano329_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano330, set(nextscene, pano331); set(previousscene, pano329); set(layer[pano330_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[restoran_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano330_pano_thumb].x) + calc(get(layer[pano330_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano332, set(nextscene, pano333); set(previousscene, pano333); set(layer[pano332_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[magazin_group_scrollarea].scrolltosetcenter(calc(get(layer[pano332_pano_thumb].x) + calc(get(layer[pano332_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano333, set(nextscene, pano332); set(previousscene, pano332); set(layer[pano333_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[magazin_group_scrollarea].scrolltosetcenter(calc(get(layer[pano333_pano_thumb].x) + calc(get(layer[pano333_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano339, set(nextscene, pano340); set(previousscene, pano349); set(layer[pano339_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano339_pano_thumb].x) + calc(get(layer[pano339_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano340, set(nextscene, pano341); set(previousscene, pano339); set(layer[pano340_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano340_pano_thumb].x) + calc(get(layer[pano340_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano341, set(nextscene, pano349); set(previousscene, pano340); set(layer[pano341_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano341_pano_thumb].x) + calc(get(layer[pano341_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano349, set(nextscene, pano339); set(previousscene, pano341); set(layer[pano349_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_romantik_group_scrollarea].scrolltocenter(calc(get(layer[pano349_pano_thumb].x) + calc(get(layer[pano349_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano334, set(nextscene, pano335); set(previousscene, pano338); set(layer[pano334_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano334_pano_thumb].x) + calc(get(layer[pano334_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano335, set(nextscene, pano336); set(previousscene, pano334); set(layer[pano335_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano335_pano_thumb].x) + calc(get(layer[pano335_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano336, set(nextscene, pano338); set(previousscene, pano335); set(layer[pano336_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano336_pano_thumb].x) + calc(get(layer[pano336_pano_thumb].pixelwidth) / 2))););
+if(xml.scene == pano338, set(nextscene, pano334); set(previousscene, pano336); set(layer[pano338_pano_thumb], bgborder='3 0xEFB03D', bgbordermode='inside'); many_pano_in_group(); layer[sosedskiy_centr_vnutri_group_scrollarea].scrolltocenter(calc(get(layer[pano338_pano_thumb].x) + calc(get(layer[pano338_pano_thumb].pixelwidth) / 2))););
+</action>
+
+<action name="show_group_thumb" >
+set(layer[restoran_romantik_group_scrollarea].visible, false);
+set(layer[restoran_vnutri_group_scrollarea].visible, false);
+set(layer[magazin_group_scrollarea].visible, false);
+set(layer[kafe_group_scrollarea].visible, false);
+set(layer[sosedskiy_centr_romantik_group_scrollarea].visible, false);
+set(layer[sosedskiy_centr_vnutri_group_scrollarea].visible, false);
+set(layer[%1].visible, true);
+</action>
+
+<cssstyles><![CDATA[
+@font-face {
+  font-family: 'Gillroy Bold';
+  src: url(/indexdata/graphics/include/gilroy-bold.ttf) format("TrueType");
+}
+]]></cssstyles>
+
+<cssstyles><![CDATA[
+@font-face {
+  font-family: 'Gillroy Regular';
+  src: url(indexdata/graphics/include/gilroy-regular.ttf) format("TrueType");
+}
+]]></cssstyles>
+
+<style name="group_thumb" width="prop" height="80%" align="top" flow="true" type="image" keep="true" />
+<style name="group_thumb_title" textalign="top" width="100%" type="text" keep="true" align="bottom" handcursor="false" y="-20" css="font-family:Gillroy Bold; color:#021944; font-size:1.2vh; text-decoration: underline; text-decoration-color: #EFB03D; text-underline-offset: 3px; text-decoration-thickness: 2px;" bgalpha="0" />
+
+<action name="group_thumb_onclick" >
+loadscene(get(panoramagroup[%1].mainscene));
+lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+wait(blend);
+tween(layer[starting_page_bg].alpha, 0);
+show_group_thumb(%2);
+</action>
+
+<layer name="starting_page_bg" type="container" keep="true" width="100%" height="100%" handcursor="false" bgcolor="0xffffff" bgalpha="1" bgcapture="true" autoalpha="true" zorder="100" />
+
+<layer name="starting_page_logo" type="image" url="logo.png" keep="true" parent="starting_page_bg" handcursor="false" align="center" y="-30%" width="prop" height="20%" />
+
+<layer name="starting_page_title" type="text" keep="true" align="center" handcursor="false" parent="starting_page_bg" y="10%" text="[b]Где вы хотите побывать?[/b]" css="font-family:Gillroy Bold; font-size:3vh; color:#021944;" />
+
+<layer name="starting_page_scrollarea_container" type="container" keep="true" align="center" y="25%" width="80%" height="20%" parent="starting_page_bg" >
+
+<layer name="starting_page_scrollarea" type="scrollarea" keep="true"
+         align="center" height="100%" flowchildren="h" childflowspacing="10" handcursor="false"
+		 scrolltype="smooth"
+         direction="h"
+         draggable="true"
+         mwheel="true"
+         capturechildren="true"
+         parentmaskchildren="true"
+         onhover_autoscrolling="false"
+         overscroll="0"
+         momentum="0.06"
+         friction="0.95"
+         acceleration="0.08"
+         returnacceleration="0.15"
+  >
+
+<layer name="restoran_romantik_group_thumb"			url="restoran_romantik_group_thumb.png"			onclick="group_thumb_onclick(panogroup370, restoran_romantik_group_scrollarea );" 		style="group_thumb" />
+<layer name="restoran_vnutri_group_thumb"			url="restoran_vnutri_group_thumb.png"			onclick="group_thumb_onclick(panogroup350, restoran_vnutri_group_scrollarea );" 		style="group_thumb" />
+<layer name="kafe_group_thumb"						url="kafe_group_thumb.png"						onclick="group_thumb_onclick(panogroup417, kafe_group_scrollarea );" 					style="group_thumb" />
+<layer name="magazin_group_thumb"					url="magazin_group_thumb.png"					onclick="group_thumb_onclick(panogroup354, magazin_group_scrollarea );" 				style="group_thumb" />
+<layer name="sosedskiy_centr_romantik_group_thumb"	url="sosedskiy_centr_romantik_group_thumb.png"	onclick="group_thumb_onclick(panogroup356, sosedskiy_centr_romantik_group_scrollarea);" style="group_thumb" />
+<layer name="sosedskiy_centr_vnutri_group_thumb"	url="sosedskiy_centr_vnutri_group_thumb.png"	onclick="group_thumb_onclick(panogroup541, sosedskiy_centr_vnutri_group_scrollarea);" 	style="group_thumb" />
+
+</layer>
+
+</layer>
+
+<layer name="restoran_romantik_group_thumb_title" 			parent="restoran_romantik_group_thumb" 			text="Ресторан «Хорошие Люди Романтик»"	style="group_thumb_title" />
+<layer name="restoran_vnutri_group_thumb_title" 			parent="restoran_vnutri_group_thumb" 			text="Ресторан «Хорошие Люди Внутри»" 	style="group_thumb_title" />
+<layer name="kafe_group_thumb_title" 						parent="kafe_group_thumb" 						text="Кафе «Светлое кафе»" 				style="group_thumb_title" />
+<layer name="magazin_group_thumb_title" 					parent="magazin_group_thumb" 					text="Магазин «Ничего лишнего»" 		style="group_thumb_title" />
+<layer name="sosedskiy_centr_romantik_group_thumb_title" 	parent="sosedskiy_centr_romantik_group_thumb" 	text="СЦ «Я - Романтик»" 				style="group_thumb_title" />
+<layer name="sosedskiy_centr_vnutri_group_thumb_title" 		parent="sosedskiy_centr_vnutri_group_thumb" 	text="СЦ «Светлый мир Внутри»"			style="group_thumb_title" />
+
+<!--
+<layer name="start_page_back" 		parent="starting_page_bg" width="32" height="prop" align="left" 	y="23%" x="2%" type="image" url="start_page_back.png" 		keep="true" onclick="layer[starting_page_scrollarea]" />
+<layer name="start_page_forward" 	parent="starting_page_bg" width="32" height="prop" align="right" 	y="23%" x="2%" type="image" url="start_page_forward.png" 	keep="true" onclick="" />
+-->
+
+<style name="pano_thumb" width="prop" height="100%" flow="true" flowspacing="5" type="image" keep="true" />
+
+<style name="group_scrollarea"
+		type="scrollarea" keep="true"
+         align="center" height="100%" flowchildren="h" childflowspacing="5" handcursor="false"
+		 scrolltype="inertia"
+         direction="h"
+         draggable="true"
+         mwheel="true"
+         capturechildren="true"
+         parentmaskchildren="true"
+         onhover_autoscrolling="false"
+         overscroll="1"
+         momentum="0.06"
+         friction="0.95"
+         acceleration="0.08"
+         returnacceleration="0.15"
+		 stepsize="10.0"
+		 />
+
+<layer name="group_scrollarea_container" type="container" keep="true" flow="false" align="top" edge="bottom" width="-10" height="150%" y="-5" bgcolor="0xFFFFFF" bgalpha="0.77" childmargin="5" bgborder="5 0xFFFFFF 0" alpha="0" autoalpha="true" parent="controller_container" >
+
+	<layer name="restoran_romantik_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano348_pano_thumb" url="viewpoint22_thumb.jpg" onclick="mainloadscene(pano348);" style="pano_thumb" />
+		<layer name="pano342_pano_thumb" url="viewpoint15_thumb.jpg" onclick="mainloadscene(pano342);" style="pano_thumb" />
+		<layer name="pano343_pano_thumb" url="viewpoint16_thumb.jpg" onclick="mainloadscene(pano343);" style="pano_thumb" />
+		<layer name="pano344_pano_thumb" url="viewpoint17_thumb.jpg" onclick="mainloadscene(pano344);" style="pano_thumb" />
+		<layer name="pano345_pano_thumb" url="viewpoint18_thumb.jpg" onclick="mainloadscene(pano345);" style="pano_thumb" />
+		<layer name="pano346_pano_thumb" url="viewpoint19_thumb.jpg" onclick="mainloadscene(pano346);" style="pano_thumb" />
+		<layer name="pano347_pano_thumb" url="viewpoint20_thumb.jpg" onclick="mainloadscene(pano347);" style="pano_thumb" />
+
+	</layer>
+
+	<layer name="restoran_vnutri_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano331_pano_thumb" url="viewpoint04_thumb.jpg" onclick="mainloadscene(pano331);" style="pano_thumb" />
+		<layer name="pano328_pano_thumb" url="viewpoint01_thumb.jpg" onclick="mainloadscene(pano328);" style="pano_thumb" />
+		<layer name="pano329_pano_thumb" url="viewpoint02_thumb.jpg" onclick="mainloadscene(pano329);" style="pano_thumb" />
+		<layer name="pano330_pano_thumb" url="viewpoint03_thumb.jpg" onclick="mainloadscene(pano330);" style="pano_thumb" />
+
+	</layer>
+
+	<layer name="magazin_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano332_pano_thumb" url="viewpoint05_thumb.jpg" onclick="mainloadscene(pano332);" style="pano_thumb" />
+		<layer name="pano333_pano_thumb" url="viewpoint06_thumb.jpg" onclick="mainloadscene(pano333);" style="pano_thumb" />
+
+	</layer>
+
+	<layer name="kafe_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano416_pano_thumb" url="viewpoint11_thumb.jpg" onclick="mainloadscene(pano416);" style="pano_thumb" />
+
+	</layer>
+
+	<layer name="sosedskiy_centr_romantik_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano339_pano_thumb" url="viewpoint12_thumb.jpg" onclick="mainloadscene(pano339);" style="pano_thumb" />
+		<layer name="pano340_pano_thumb" url="viewpoint13_thumb.jpg" onclick="mainloadscene(pano340);" style="pano_thumb" />
+		<layer name="pano341_pano_thumb" url="viewpoint14_thumb.jpg" onclick="mainloadscene(pano341);" style="pano_thumb" />
+		<layer name="pano349_pano_thumb" url="viewpoint23_thumb.jpg" onclick="mainloadscene(pano349);" style="pano_thumb" />
+
+	</layer>
+
+	<layer name="sosedskiy_centr_vnutri_group_scrollarea" style="group_scrollarea" >
+
+		<layer name="pano334_pano_thumb" url="viewpoint07_thumb.jpg" onclick="mainloadscene(pano334);" style="pano_thumb" />
+		<layer name="pano335_pano_thumb" url="viewpoint08_thumb.jpg" onclick="mainloadscene(pano335);" style="pano_thumb" />
+		<layer name="pano336_pano_thumb" url="viewpoint09_thumb.jpg" onclick="mainloadscene(pano336);" style="pano_thumb" />
+		<layer name="pano338_pano_thumb" url="viewpoint10_thumb.jpg" onclick="mainloadscene(pano338);" style="pano_thumb" />
+
+	</layer>
+
+</layer>
+
+<layer name="controller_container" type="container" keep="true" flowchildren="h" align="bottom" height="7%" y="2%" bgcolor="0xffffff" bgalpha="0.77" >
+
+	<layer name="controller_previous_scene" childorder="1" 	type="image" height="70%" width="prop" url="backward.png" 	flow="true" keep="true" align="left" onclick="mainloadscene(get(previousscene));" />
+
+	<layer name="controller_thumbs_on" 		childorder="2" 	type="image" height="70%" width="prop" url="select_1.png" 	flow="true" keep="true" align="left" onclick="tween(layer[group_scrollarea_container].alpha, 1); set(layer[controller_thumbs_on].visible, false); set(layer[controller_thumbs_off].visible, true); set(group_scrollarea_container_visibility, 'true');" />
+	<layer name="controller_thumbs_off" 	childorder="2" 	type="image" height="70%" width="prop" url="select_2.png" 	flow="true" keep="true" align="left" onclick="tween(layer[group_scrollarea_container].alpha, 0); set(layer[controller_thumbs_on].visible, true); set(layer[controller_thumbs_off].visible, false); set(group_scrollarea_container_visibility, 'false');" visible="false" />	
+
+	<layer name="sound_off" 		childorder="4" 	type="image" height="70%" width="prop" url="sound_off.png" 	flow="true" keep="true" align="left" onclick="stopTourSounds(); set(layer[sound_on].visible, true); set(layer[sound_off].visible, false);" />
+	<layer name="sound_on" 			childorder="4" 	type="image" height="70%" width="prop" url="sound_on.png" 	flow="true" keep="true" align="left" onclick="playTourSounds(); set(layer[sound_on].visible, false); set(layer[sound_off].visible, true);" visible="false" />	
+
+	<layer name="controller_left" 	childorder="5" 	type="image" height="70%" width="prop" url="left.png" 	flow="true" keep="true" align="left" ondown="set(hlookat_moveforce,-1);" onup="set(hlookat_moveforce,0);" flowspacing="0 0 0 50" />
+	<layer name="controller_right" 	childorder="6" 	type="image" height="70%" width="prop" url="right.png" 	flow="true" keep="true" align="left" ondown="set(hlookat_moveforce,+1);" onup="set(hlookat_moveforce,0);" />
+	<layer name="controller_up" 	childorder="7" 	type="image" height="70%" width="prop" url="up.png" 	flow="true" keep="true" align="left" ondown="set(vlookat_moveforce,-1);" onup="set(vlookat_moveforce,0);" />
+	<layer name="controller_down" 	childorder="8" 	type="image" height="70%" width="prop" url="down.png" 	flow="true" keep="true" align="left" ondown="set(vlookat_moveforce,+1);" onup="set(vlookat_moveforce,0);" />
+	<layer name="controller_plus" 	childorder="9" 	type="image" height="70%" width="prop" url="plus.png" 	flow="true" keep="true" align="left" ondown="set(fov_moveforce,-1);"     onup="set(fov_moveforce,0);" />
+	<layer name="controller_minus" 	childorder="10" type="image" height="70%" width="prop" url="minus.png" 	flow="true" keep="true" align="left" ondown="set(fov_moveforce,+1);"     onup="set(fov_moveforce,0);" flowspacing="0 50 0 0" />
+
+	<layer name="controller_fullscreen_on" 	childorder="12" type="image" height="70%" width="prop" url="fs_on.png" 	flow="true" keep="true" align="left" onclick="set(fullscreen,true);" devices="fullscreensupport" />
+	<layer name="controller_fullscreen_off" childorder="12" type="image" height="70%" width="prop" url="fs_off.png" flow="true" keep="true" align="left" onclick="set(fullscreen,false);" devices="fullscreensupport" visible="false" />
+	
+	<layer name="controller_next_scene" 	childorder="13" type="image" height="70%" width="prop" url="forward.png" 		flow="true" keep="true" align="left" onclick="mainloadscene(get(nextscene));" />
+
+	<layer name="controller_container_bottom_line" type="container" flow="false" keep="true" align="bottom" height="2" width="90%" bgcolor="0xEFB03D" bgalpha="1" />
+
+</layer>
+
+<layer name="home_button" type="image" url="home.png" keep="true" align="leftbottom" x="20" y="2.5%" onclick="tween(layer[starting_page_bg].alpha, 1); mainloadscene(pano552);" />
+
+
+</krpano>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Светлый Мир]]></data>
+
+
+
+  <data name="en_pano552_title"><![CDATA[menubg]]></data>
+
+  <data name="en_panogroup350_title"><![CDATA[restoran vnutri]]></data>
+
+  <data name="en_pano331_title"><![CDATA[Зал ресторана]]></data>
+  <data name="en_pano328_title"><![CDATA[Зона входа и детская комната]]></data>
+  <data name="en_pano329_title"><![CDATA[Барная зона]]></data>
+  <data name="en_pano330_title"><![CDATA[Камин]]></data>
+
+  <data name="en_panogroup354_title"><![CDATA[magazin]]></data>
+
+  <data name="en_pano332_title"><![CDATA[Кассовая зона]]></data>
+  <data name="en_pano333_title"><![CDATA[Торговый зал]]></data>
+
+  <data name="en_panogroup356_title"><![CDATA[sosedskiy centr romantik]]></data>
+
+  <data name="en_pano339_title"><![CDATA[Ресепшен соседского центра]]></data>
+  <data name="en_pano340_title"><![CDATA[Кафе-коворкинг]]></data>
+  <data name="en_pano341_title"><![CDATA[Тихий коворкинг]]></data>
+  <data name="en_pano349_title"><![CDATA[Спортивный зал]]></data>
+
+  <data name="en_panogroup370_title"><![CDATA[restoran romantik]]></data>
+
+  <data name="en_pano348_title"><![CDATA[Ресепшен]]></data>
+  <data name="en_pano342_title"><![CDATA[Лобби]]></data>
+  <data name="en_pano343_title"><![CDATA[Зал с видом на Финский залив]]></data>
+  <data name="en_pano344_title"><![CDATA[Семейный зал]]></data>
+  <data name="en_pano345_title"><![CDATA[Зал с видом на ЖК "Я романтик"]]></data>
+  <data name="en_pano346_title"><![CDATA[Лестница в зал "Мансарда"]]></data>
+  <data name="en_pano347_title"><![CDATA[Зал "Мансарда"]]></data>
+
+  <data name="en_panogroup417_title"><![CDATA[kafe]]></data>
+
+  <data name="en_pano416_title"><![CDATA[Зал]]></data>
+
+  <data name="en_panogroup541_title"><![CDATA[sosedskiy centr vnutri]]></data>
+
+  <data name="en_pano334_title"><![CDATA[Тихий коворкинг, переговорная]]></data>
+  <data name="en_pano335_title"><![CDATA[Детская комната]]></data>
+  <data name="en_pano336_title"><![CDATA[Кинозал]]></data>
+  <data name="en_pano337_title"><![CDATA[Соседский центр - Кинотеатр]]></data>
+  <data name="en_pano338_title"><![CDATA[Соседский центр - Мастерская]]></data>
+
+
+
+
+
+
+  <data name="en_garrowsnavhotspots_style"><![CDATA[IconDefaultPointSpotStyle]]></data>
+  <data name="en_garrowsnavhotspots_style_vertical"><![CDATA[IconDefaultPointSpotStyle1]]></data>
+  <data name="en_garrowsfloatingarrow_alpha"><![CDATA[0.5]]></data>
+  <data name="en_garrowsnavpoints_alpha"><![CDATA[0.2]]></data>
+  <data name="en_garrowsnavpoints_onhover_alpha"><![CDATA[0.6]]></data>
+  <data name="en_garrowschevrons_alpha"><![CDATA[1]]></data>
+  <data name="en_garrowschevronsborder_alpha"><![CDATA[1]]></data>
+  <data name="en_garrowschevrons_shadow_alpha"><![CDATA[0.5]]></data>
+  <data name="en_garrowschevrons_shadow_border_alpha"><![CDATA[0.5]]></data>
+  <data name="en_garrowsdisabled_panoids"><![CDATA[]]></data>
+  <data name="en_garrowsfloating_arrow_text"><![CDATA[]]></data>
+  <data name="en_garrowschevron_arrows_text"><![CDATA[]]></data>
+  <data name="en_garrowsnavigation_hotspots_text"><![CDATA[]]></data>
+  <data name="en_garrowsfloating_arrow_autohide_text"><![CDATA[]]></data>
+  <data name="en_garrowspassword"><![CDATA[garrows]]></data>
+  <data name="en_garrowskeep_view_replace_what"><![CDATA[MERGE]]></data>
+  <data name="en_garrowskeep_view_replace_with"><![CDATA[KEEPVIEW]]></data>
+
+
+  <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
+  <data name="en_vr_setup_advanced"><![CDATA[ADVANCED SETTINGS]]></data>
+  <data name="en_vr_setup_title"><![CDATA[WEB VR SETTINGS]]></data>
+  <data name="en_vr_setup_dvn1"><![CDATA[Device:]]></data>
+  <data name="en_vr_setup_siz1"><![CDATA[Screen size:]]></data>
+  <data name="en_vr_setup_ipd1"><![CDATA[IPD:]]></data>
+  <data name="en_vr_setup_hmd1"><![CDATA[HMD:]]></data>
+  <data name="en_vr_setup_hmd3"><![CDATA[Customize]]></data>
+  <data name="en_vr_setup_cal"><![CDATA[Calibrate gyroscope]]></data>
+  <data name="en_vr_setup_sav"><![CDATA[SAVE]]></data>
+  <data name="en_vr_setup_rst"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_simple"><![CDATA[SIMPLE]]></data>
+  <data name="en_vr_setup_cls"><![CDATA[CLOSE]]></data>
+  <data name="en_vr_setup_m31"><![CDATA[HMD SETTINGS]]></data>
+  <data name="en_vr_setup_fov1"><![CDATA[FOV:]]></data>
+  <data name="en_vr_setup_dst1"><![CDATA[Distortion:]]></data>
+  <data name="en_vr_setup_d2tx"><![CDATA[Distortion 2:]]></data>
+  <data name="en_vr_setup_vig1"><![CDATA[Vignette:]]></data>
+  <data name="en_vr_setup_cac1"><![CDATA[Chromatic aberration:]]></data>
+  <data name="en_vr_setup_olp1"><![CDATA[Overlap:]]></data>
+  <data name="en_vr_setup_m35"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb1"><![CDATA[GYROSCOPE]]></data>
+  <data name="en_vr_setup_cb2"><![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]></data>
+  <data name="en_vr_setup_cb3"><![CDATA[CALIBRATE]]></data>
+  <data name="en_vr_setup_cb4"><![CDATA[RESET]]></data>
+  <data name="en_vr_setup_cb5"><![CDATA[RETURN]]></data>
+  <data name="en_vr_setup_cb6"><![CDATA[Calibrating...]]></data>
+  <data name="en_vr_setup_cb7"><![CDATA[Successful calibration]]></data>
+  <data name="en_vr_setup_cb8"><![CDATA[Calibration failed]]></data>
+  <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
+
+
+
+
+
+
+  <data name="en_panogroup350_description"><![CDATA[<font size="6" color="#ffffff">&nbsp;Ресторан здорового питания (включая завтраки) до 180 гостей со сценой.</font>]]></data>
+
+  <data name="en_pano331_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Каждую пятницу и субботу на сцене ресторана "Хорошие Люди Внутри" проходят живые выступления лучших музыкальных коллективов Санкт-Петербурга. По выходным мы проводим творческие и кулинарные мастер-классы, устраиваем интерактивные театральные постановки, организуем интереснейшие лекции, литературные вечера и просмотры знаковых кинофильмов.</span><br>]]></data>
+
+  <data name="en_pano328_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Добро пожаловать в одну из красивейших локаций на побережье - ресторан "Хорошие Люди Внутри", расположенный на первой береговой линии Финского залива, в самом сердце хвойного леса. В основе концепта - осознанное питание, меню насчитывает более 100 позиций и регулярно обновляется в соответствии со сменой сезонов. Здесь вы насладитесь авторской кухней, развенчивающей стереотипы об однообразии вегетарианских блюд, высочайшим уровнем сервиса, а также компанией людей со схожими интересами, ценностями и целями. Для самых юных гостей мы организовали просторную детскую комнату, веселые игры в которой обрадуют любого непоседу!</span><br>]]></data>
+
+  <data name="en_pano329_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Мягкие диваны, расположенные неподалеку от барной стойки, в ясную погоду буквально утопают в солнечном свете, который проникает сквозь огромные панорманые окна. Это идеальная локация для романтичных завтраков и вкусных ланчей с видом на вечнозеленый хвойный лес, место ожидания оригинальных чайных коктейлей, домашних лимонадов и бесподобного кофе!</span><br>]]></data>
+
+  <data name="en_pano330_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">В интерьере доминирует тренд на экологичность и натуральность: живые растения, отделка из дерева и камня, а также настоящий камин в центре зала, превращают ресторан «Хорошие Люди Внутри» в место притяжения особенных людей!&nbsp;</span><br>]]></data>
+
+
+  <data name="en_panogroup354_description"><![CDATA[<div><font size="6" color="#ffffff">&nbsp;Продуктовые лавки предлагают большой ассортимент свежих, полезных и экологически чистых продуктов только от лучших поставщиков.</font></div>]]></data>
+
+  <data name="en_pano332_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Добро пожаловать в магазин здорового питания «Ничего лишнего». В основе концепта – осознанное потребление, которое включает в себя рациональное и правильное питание, отказ от мяса и продуктов животного происхождения, экологичность, а также внимание к своему физическому и душевному здоровью.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano333_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Именно здесь вы найдете всё самое необходимое: наисвежайшие фрукты и овощи, молочную продукцию и сыры, неМясные продукты, посетите бакалейный и кондитерский отделы, сможете приобрести хозяйственные товары, а также спортивное питание. Придерживаясь формата «магазин по соседству», "Ничего лишнего" предлагает широкую ассортиментную матрицу продуктов, которые будут вкусны всем – без каких-либо исключений!&nbsp;</span><br>]]></data>
+
+
+  <data name="en_panogroup356_description"><![CDATA[<font size="6" color="#ffffff">&nbsp;Соседский центр – это новый для России формат&nbsp;взаимоотношений между соседями, созданный&nbsp;компанией Seven Suns Development. Уникальность&nbsp;центра в его локальности и доступности. Это место&nbsp;встречи жителей для совместной работы и отдыха.</font><div><font size="6" color="#ffffff"><br></font></div><div><font size="6" color="#ffffff">&nbsp;На базе Соседского центра созданы условия для&nbsp;занятий спортом, мастер-классов, культурных мероприятий, общения и отдыха с детьми. Новый формат&nbsp;обеспечит формирование устойчивых соседских&nbsp;сообществ. Это шаг к объединению и самоорганизации жителей в рамках одного квартала.</font></div>]]></data>
+
+  <data name="en_pano339_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Соседский центр – уютное место для знакомства, общения, работы, реализации и интересной жизни соседей. Соседский центр находится в управлении команды активных жильцов комплекса - соседей, всегда готовых помочь в реализации Ваших идей</span><br>]]></data>
+
+  <data name="en_pano340_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Кафе-коворкинг - сердце нашего центра.  Вам точно нужно к нам зайти, если вы фрилансер и домашняя обстановка вас расслабляет и отвлекает от работы. А в выходные и по вечерам в кафе - коворкинге вы можете поиграть в игры и потренировать свою находчивость, познакомиться с соседями, провести время на соседских мероприятиях или просто взять книгу из библиотеки соседского буккроссинга</span><br>]]></data>
+
+  <data name="en_pano341_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Комната для восстановления дзена, покоя и равновесия, а также работы в условиях полнейшей тишины для лучшей сосредоточенности</span><br>]]></data>
+
+  <data name="en_pano349_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Место для проведения спортивных занятий для детей и взрослых. Соседи могут присоединиться к групповым занятиям, заниматься индивидуально или организовать соседский дружеский турнир. Когда спорт так близко не обязательно ждать понедельника</span><br>]]></data>
+
+
+  <data name="en_panogroup370_description"><![CDATA[<div><font color="#ffffff" size="6">&nbsp;Ресторан здорового питания (включая завтраки) до 180 гостей со сценой.</font></div>]]></data>
+
+  <data name="en_pano348_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Добро пожаловать в "Хорошие Люди Романтики" - изящный панорамный ресторан на высоте птичьего полета. Здесь представлена авторская растительная кухня, способная поразить воображение любого гурмана, а потрясающий вид на Финский залив становится источником вдохновения для эстетов и гастро-энтузиастов.</span><br>]]></data>
+
+  <data name="en_pano342_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Элегантный, стильный и эклектичный интерьер превратился в визитную карточкой "Романтиков". Здесь вы сможете покачаться на знаменитых качелях, которые меняют свой эффектный декор в зависимости от сезона, отправиться в гастрономическое путешествие, вращая глобус, или насладиться любимым блюдом, пролистывая одну из интереснейших книг, представленных на наших книжных полках.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano343_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Каждые выходные для самых юных гостей ресторана "Хорошие Люди Романтики" проходят творческие и кулинарные мастер-классы, современные театральные постановки и яркие тематические праздники, а просторная детская комната, оборудованная всем необходимым для веселых игр, не даст заскучать даже самому шаловливому малышу.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano344_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">"Семейный зал" представляет собой обособленное пространство, созданное для проведения частных мероприятий и праздников, деловых встреч, когда необходимо поговорить с партнером тет-а-тет вне офисных стен, организации презентаций с использованием видеоэкрана, коучинг-сессий или тематических тренингов. А также в этом зале проходит традиционный "Хороший Лекторий" - лекции на актуальные темы от искусствоведов, историков моды и психологов. &nbsp;</span><br>]]></data>
+
+  <data name="en_pano345_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Просторная обеденная зона с мягкими диванами у панорамных окон располагает к неспешным завтракам, сытным ланчам, вкусным и полезным ужинам в кругу близких людей. В меню представлены европейская, русская и тайская кухни. Наша талантливая и влюбленная в свое дело команда поваров, добавляя в каждое блюдо авторские акценты, превращает их в настоящие произведения кулинарного искусства! &nbsp;&nbsp;</span><br>]]></data>
+
+  <data name="en_pano346_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Каждую субботу в ресторане "Хорошие Люди Романтики" выступают талантливые музыканты, звучит гитара и саксофон, фортепиано, электронный аккордеон и даже арфа.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano347_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Зал "Мансарда", расположенный на втором этаже ресторана, под стеклянным куполом, где кажется, что до неба можно дотянуться рукой - атмосферная локация для романтических свиданий и теплых дружеских встреч. Здесь проходят астролекции, чайные церемонии и камерные музыкальные вечера, а кроме того, все желающие могут посмотреть на звезды через суперсовременный телеском Levenhuk Skyline PRO. &nbsp;&nbsp;</span><br>]]></data>
+
+
+  <data name="en_panogroup417_description"><![CDATA[<div><font size="6" color="#ffffff">&nbsp;В меню кафе, открытых специально для жителей кварталов, акцент сделан на здоровом питании и вегетарианских блюдах. Также всегда доступен ароматный зерновой кофе и свежая выпечка. Это место встречи друзей и близких.</font></div>]]></data>
+
+  <data name="en_pano416_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">«Светлое кафе» - место встречи соседей, где аромат свежесваренного кофе и вкуснейшей выпечки создают невероятно гармоничную атмосферу, которая вдохновляет на душевное общение и приятный отдых, расставляя акценты в пользу уюта и гостеприимства. В основе концепта – этичное и осознанное потребление. Это уникальная возможность попробовать блюда, выпечку и десерты, приготовленные из продуктов растительного происхождения в шаговой доступности от дома, островок для дружеских посиделок, где за столиками нет места суете, а каждый посетитель может унести с собой не только потрясающий кофе, но и новый гастрономический опыт. &nbsp;</span><br>]]></data>
+
+
+
+  <data name="en_pano334_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Территория для работы,  деловых и частных встреч, на которой наши соседи принимают важные решения, ведут переговоры и заключают контракты &nbsp;</span><br>]]></data>
+
+  <data name="en_pano335_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Палочка-выручалочка для родителей, самое волшебное место нашего центра, где собран самый звонкий смех, шалость, искренние взгляды и бесконечная радость</span><br>]]></data>
+
+  <data name="en_pano336_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">В наш кинотеатр не нужно покупать билет и ждать сеанс, вы можете арендовать его в любое удобное для вас время, выбрать фильм и наслаждаться просмотром с прекрасным звуком, в удобных креслах-мешках или на диванах, в компании друзей, детей или любимого человека.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano337_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">В наш кинотеатр не нужно покупать билет и ждать сеанс, вы можете арендовать его в любое удобное для вас время, выбрать фильм и наслаждаться просмотром с прекрасным звуком, в удобных креслах-мешках или на диванах, в компании друзей, детей или любимого человека.&nbsp;</span><br>]]></data>
+
+  <data name="en_pano338_description"><![CDATA[<span data-sheets-formula-bar-text-style="font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">В мастерских царит атмосфера креатива. Это место, где можно побыть наедине с собой или в группе единомышленников, смастерить что-то собственными руками. Мастерские оборудованы столами и мольбертами, и прочими инструментами для создания шедевров.</span><br>]]></data>
+
+
+</krpano>
